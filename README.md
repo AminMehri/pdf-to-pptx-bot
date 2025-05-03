@@ -9,7 +9,6 @@ A Telegram bot that converts PDF files to PowerPoint (PPTX) presentations instan
    git clone https://github.com/AminMehri/pdf-to-pptx-bot/
    cd pdf-to-pptx-bot
 2. **Set up environment variables**
-
 Create a .env file and add your Telegram bot token:
 
 BOT_TOKEN=your_bot_token_here
@@ -18,6 +17,7 @@ BOT_TOKEN=your_bot_token_here
 4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   ```
 5. **Run the bot**
    ```bash
    python main.py
